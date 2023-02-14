@@ -435,8 +435,8 @@
         <form class="footer-form">
           <div class="footer-right-cide">
             <h4 class="footer-central-title">Subscribe</h4>
-            <ul class="footer-central-list">
-              <li class="footer-input list">
+            <div class="footer-central-form">
+              <div class="footer-input ">
                 <input
                   type="email"
                   class="subscribe-input"
@@ -444,16 +444,16 @@
                   placeholder="E-mail"
                   required
                 />
-              </li>
-              <li class="footer-button list">
+              </div>
+              <div class="footer-button ">
                 <button class="footer-button-subscribe" type="submit">
                   Subscribe
                 </button>
                 <svg class="footer-button-icon" width="24" height="24">
                   <use href="./images/sprite.svg.svg#icon-frame"></use>
                 </svg>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </form>
       </div>
@@ -471,7 +471,6 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <!--Форма-->
         <form class="modal-form">
-          <div class="modal-field">
             <label for="name" class="modal-input-text">Name</label>
             <div class="input-wrap">
               <input
@@ -482,12 +481,12 @@
                 placeholder=""
                 required
               />
-              <svg class="modal-input-icon" width="18" height="18">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/sprite.svg.svg#icon-person"></use>
               </svg>
-            </div>
+          
           </div>
-          <div class="modal-field">
+        
             <label for="phone" class="modal-input-text">Phone</label>
             <div class="input-wrap">
               <input
@@ -501,9 +500,9 @@
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/sprite.svg.svg#icon-phone"></use>
               </svg>
-            </div>
+          
           </div>
-          <div class="modal-field">
+          
             <label for="email" class="modal-input-text">Email</label>
             <div class="input-wrap">
               <input
@@ -516,9 +515,9 @@
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/sprite.svg.svg#icon-email"></use>
               </svg>
-            </div>
+          
           </div>
-          <div class="modal-field">
+          
             <label class="modal-input-text" for="comment">Comment</label>
             <textarea
               name="comment"
@@ -526,8 +525,8 @@
               class="modal-comment"
               placeholder="Text input"
             ></textarea>
-          </div>
-          <div class="modal-field">
+        
+        
             <input
               type="checkbox"
               id="policy"
@@ -546,7 +545,7 @@
                 >Privacy Policy</a
               >
             </label>
-          </div>
+          
           <!--Send-Modal-Button-->
           <div class="modal-button">
             <button type="submit" class="hero-button">Send</button>

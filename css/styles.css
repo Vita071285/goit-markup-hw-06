@@ -18,6 +18,7 @@
 h1,
 h2,
 h3,
+h4
 p { margin-top:0;
     margin-bottom: 0; 
 }
@@ -533,11 +534,12 @@ padding-bottom: 120px ;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    max-width:266px ;
-    padding-right: auto;
 }
 .footer-right-cide {
     margin-left: 80px;
+}
+.footer-central-form{
+    display: flex;
 }
 .subscribe-input {
     width: 264px;
@@ -796,7 +798,9 @@ color: #F4F4FD; }
     fill: currentColor;
 }
 
-
+.modal-form {
+    position: relative;
+}
 
 .modal-title {
     font-weight: 500;
@@ -807,11 +811,11 @@ color: #F4F4FD; }
     color: #2E2F42;
     margin-bottom: 16px;
 }
-.modal-field {
-    margin-bottom: 24px;
-}
+
 .input-wrap {
     position: relative;
+    margin-bottom: 8px;
+    margin-top: 4px;
 
 }
 .modal-input {
@@ -822,7 +826,7 @@ color: #F4F4FD; }
     font-size: 12px;
     border-radius: 4px;
     padding-left: 38px;
-    
+
 }
 .modal-input:focus, .modal-comment:focus {
     border-color: var(--accent-color);
@@ -863,6 +867,8 @@ transform: translateY(-50%);
     padding-bottom: 8px;
     padding-left: 16px;
     resize: none;
+    margin-bottom: 16px;
+    margin-top: 4px;
 }
 
 .check-text {
@@ -916,5 +922,6 @@ transform: translateY(-50%);
 }
 .modal-button{
 margin-left: 96px;
+margin-top: 24px;
 
 }
